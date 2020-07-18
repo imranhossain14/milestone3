@@ -97,5 +97,5 @@ function woodCalculator(chair, table, bed){
     
 }
 
-var smallestName = tinyFriend(['kfffgd', 'Aki', 'Imran', 'kalibor', 'katrina']);
+var smallestName = tinyFriend(['kader', 'Aki', 'Imran', 'kalu', 'katrina']);
 console.log(smallestName);
