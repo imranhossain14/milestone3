@@ -44,13 +44,13 @@ function woodCalculator(chair, table, bed){
                         return "Floor number cannot be negative";
                         break;
                     
-                    case numberOfFloor>0 && numberOfFloor<11 :
+                    case numberOfFloor>0 && numberOfFloor<=10 :
                         var countBrick =numberOfFloor*1000*15;
                         return countBrick;
                         break;
                         
         
-                    case numberOfFloor<20 && numberOfFloor>10 :
+                    case numberOfFloor<=20 && numberOfFloor>10 :
                             var countBrick =10*1000*15+(numberOfFloor-10)*1000*12;
                             return countBrick;
         
